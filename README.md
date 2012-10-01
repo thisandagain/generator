@@ -1,6 +1,8 @@
 ## Generator
 A simple project bootstrapping utility.
 
+[![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
+
 ### Installation
 ```bash
 [sudo] npm install -g generator
@@ -45,9 +47,10 @@ Which will then write:
 
 ### Default Templates
 Generator comes with a number of templates to get you started (additional "starter" templates are welcomed). While they are usable as-is, the whole point of Generator is make the creation and modification of custom templates easy... so go get your hands dirty and hack your own!
-`module` - Template for a standard [Node.js](http://nodejs.org/) module
-`binary` - Template for a standard [Node.js](http://nodejs.org/) CLI application
-`arduino` - Template for a basic [Arduino](http://www.arduino.cc/) project
+
+- `module` Template for a standard [Node.js](http://nodejs.org/) module
+- `binary` Template for a standard [Node.js](http://nodejs.org/) CLI application
+- `arduino` Template for a basic [Arduino](http://www.arduino.cc/) project
 
 ---
 
