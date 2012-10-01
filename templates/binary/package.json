@@ -1,0 +1,28 @@
+{
+  "author": "__author__ <__email__> (__website__)",
+  "name": "__name__",
+  "description": "__description__",
+  "version": "0.0.1",
+  "homepage": "https://github.com/__author__/__name__",
+  "repository": {
+    "url": "https://github.com/__author__/__name__"
+  },
+  "bin": {
+    "__name__": "./bin/index.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "underscore": "~1.4.1"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
