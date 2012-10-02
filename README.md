@@ -90,5 +90,5 @@ npm test
 ```
 
 ### Notes
-- C, C++, and PHP often use the "__SOMETHING__" pattern for [macros](http://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Standard-Predefined-Macros.html). For this reason, Generator will ignore any variable instances that are specified in caps. This works fine for C and C++ users, but given that such macros in PHP are case insensitive, PHP users should keep this limitation in mind while designing templates.
+- C, C++, and PHP often use the `__SOMETHING__` pattern for [macros](http://gcc.gnu.org/onlinedocs/gcc-3.1/cpp/Standard-Predefined-Macros.html). For this reason, Generator will ignore any variable instances that are specified in caps. This works fine for C and C++ users, but given that such macros in PHP are case insensitive, PHP users should keep this limitation in mind while designing templates.
 - "Good coders code. Great reuse." quote shamelessly stolen from [Peteris Krumins' blog](http://www.catonmat.net/) (which you should read).
