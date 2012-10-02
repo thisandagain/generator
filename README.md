@@ -1,5 +1,5 @@
 ## Generator
-**Generator is a CLI utility that is designed to make bootstrapping projects & creating project templates simple.** Furthermore, Generator is designed to be platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
+**Generator is a CLI utility that is designed to make bootstrapping and templating projects simple.** Generator is platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
