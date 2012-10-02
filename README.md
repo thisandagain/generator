@@ -31,7 +31,7 @@ Generator comes with a few templates to get you started. While they are usable a
 - `arduino` [Arduino](http://www.arduino.cc/) project
 
 ### How Templates Work
-Templates are simply directories with any combination of files and sub-directories found within them. To create a new template simply create a new directory within your `~/.generator` path or copy one of the default templates and modify it. Upon use, Generator will walk the template looking for any instances of `__yourVariableName__` and prompt for a value. For example, a template including this:
+Templates are simply directories with any combination of files and sub-directories found within them. To create a new template simply create a new directory within your `~/.generator` path or copy one of the default templates and modify it. Upon use, Generator will walk the template looking for any instances of `__lowercasevariable__` and prompt for a value. For example, a template including this:
 
 ```javascript
 /**
