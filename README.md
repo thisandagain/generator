@@ -1,6 +1,6 @@
 ## Generator
 #### Good coders code. Great reuse.
-Generator is a CLI utility that is designed to make bootstrapping and templating projects simple. Generator is platform agnostic: Node.js? [Saucy](http://teespring.com/oaklandjs). Ruby? Sounds good. Objective-C? Go for it. Fortran? Why not.
+Generator is a CLI utility that is designed to make bootstrapping and templating projects simple. Generator is platform agnostic: Node.js? [Saucy](http://teespring.com/oaklandjs). Ruby? Sounds good. Objective-C? Go for it. Fortran? Why not. PHP? Generator won't say anything snarky.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
