@@ -22,6 +22,13 @@ generate --type module --name myAwesomeProject
 
 ---
 
+### Default Templates
+Generator comes with a few templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so have fun and hack your own!
+
+- `module` [Node.js](http://nodejs.org/) module
+- `binary` [Node.js](http://nodejs.org/) CLI application
+- `arduino` [Arduino](http://www.arduino.cc/) project
+
 ### How Templates Work
 Templates are simply directories with any combination of files and sub-directories found within them. To create a new template simply create a new directory within your `~/.generator` path or copy one of the default templates and modify it. Upon use, Generator will walk the template looking for any instances of `__yourVariableName__` and prompt for a value. For example, a template including this:
 
@@ -50,13 +57,6 @@ Which will generate:
  * @author Nyan Cat <me@somedomain.com>
  */
 ```
-
-### Default Templates
-Generator comes with a number of templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so have fun and hack your own!
-
-- `module` Template for a standard [Node.js](http://nodejs.org/) module
-- `binary` Template for a standard [Node.js](http://nodejs.org/) CLI application
-- `arduino` Template for a basic [Arduino](http://www.arduino.cc/) project
 
 ---
 
