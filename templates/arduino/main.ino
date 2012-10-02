@@ -3,6 +3,7 @@
  *
  * @package __name__
  * @author __author__ <__email__>
+ * @note __THIS_WILL_BE_IGNORED__
  */
  
 /**
