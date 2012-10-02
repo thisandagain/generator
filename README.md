@@ -1,5 +1,6 @@
 ## Generator
-**Generator is a CLI utility that is designed to make bootstrapping and templating projects simple.** Generator is platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
+#### Good coders code. Great reuse.
+Generator is a CLI utility that is designed to make bootstrapping and templating projects simple. Generator is platform agnostic: Node.js? [Saucy](http://teespring.com/oaklandjs). Ruby? Sounds good. Objective-C? Go for it. Fortran? Why not.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
@@ -43,18 +44,18 @@ Templates are simply directories with any combination of files and sub-directori
 
 Will prompt:
 ```bash
-description: A description of my project
+description: Rainbow catsplosion.
 author: Nyan Cat
-email: me@somedomain.com
+email: kitty@meow.com
 ```
 
 Which will generate:
 ```javascript
 /**
- * A description of my project
+ * Rainbow catsplosion.
  *
  * @package myAwesomeProject
- * @author Nyan Cat <me@somedomain.com>
+ * @author Nyan Cat <kitty@meow.com>
  */
 ```
 
@@ -70,9 +71,23 @@ generator:
 .PHONY: generator
 ```
 
+Or... heck, let's go crazy nuts and automate setting up our git repo:
+
+```bash
+generator:
+    git init
+    git remote add origin https://__github__@github.com/__github__/__name__
+    npm install
+
+.PHONY: generator
+```
+
 ---
 
 ### Testing
 ```bash
 npm test
 ```
+
+### Notes
+"Good coders code. Great reuse." shamelessly stolen from [Peteris Krumins' blog](http://www.catonmat.net/) (which you should read).
