@@ -1,5 +1,5 @@
 ## Generator
-Generator is a CLI utility that is designed to make bootstrapping projects & creating project templates simple. Furthermore, Generator is designed to be platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
+**Generator is a CLI utility that is designed to make bootstrapping projects & creating project templates simple.** Furthermore, Generator is designed to be platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
@@ -51,14 +51,14 @@ Which will generate:
  */
 ```
 
----
-
 ### Default Templates
 Generator comes with a number of templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so have fun and hack your own!
 
 - `module` Template for a standard [Node.js](http://nodejs.org/) module
 - `binary` Template for a standard [Node.js](http://nodejs.org/) CLI application
 - `arduino` Template for a basic [Arduino](http://www.arduino.cc/) project
+
+---
 
 ### Post Processing
 By default, Generator will look for a `makefile` and (if found) will run `make generator` after all other template processing has been completed. This is particularly handy for dealing with template dependencies that may change over time (like git repositories or even [NPM](https://npmjs.org/) modules). For example:
