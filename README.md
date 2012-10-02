@@ -52,6 +52,16 @@ Generator comes with a number of templates to get you started (additional "start
 - `binary` Template for a standard [Node.js](http://nodejs.org/) CLI application
 - `arduino` Template for a basic [Arduino](http://www.arduino.cc/) project
 
+### Post Processing
+By default, Generator will look for a `makefile` and (if found) will run `make generator` after all other template processing has been completed. This is particularly handy for dealing with template dependencies that may change over time (like git repositories or even [NPM](https://npmjs.org/) modules). For example:
+
+```bash
+generator:
+    npm install
+
+.PHONY: generator
+```
+
 ---
 
 ### Testing

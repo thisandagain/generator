@@ -63,3 +63,10 @@ if (bin.setup) {
         new Walk(path, bin.name, false);
     });
 }
+
+/**
+ * Uncaught exception handler
+ */
+process.on('uncaughtException', function (err) {
+    process.exit(0);
+});
