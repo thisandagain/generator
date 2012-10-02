@@ -1,20 +1,28 @@
 ## Generator
-A simple project bootstrapping utility.
+Generator is a CLI utility that is designed to make bootstrapping projects & creating project templates simple. Furthermore, Generator is designed to be platform agnostic: Like Node.js? Great. Ruby? Sounds good. Objective-C? Go for it.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
 ### Installation
+Generator can be installed using [NPM](https://npmjs.org/):
 ```bash
 [sudo] npm install -g generator
+```
+
+Once installed, you should load the default templates:
+```bash
 generate --setup
 ```
 
-### Basic Use
+### Usage
+In order to bootstrap a project using one of the default templates you simply run `generate` and specifiy a template and project name. For example, let's create a new Node.js `module` called `myAwesomeProject`:
 ```bash
-generate -t module -n myAwesomeProject
+generate --type module --name myAwesomeProject
 ```
 
-### Creating A New Template
+---
+
+### How Templates Work
 Templates are simply directories with any combination of files and sub-directories found within them. To create a new template simply create a new directory within your `~/.generator` path or copy one of the default templates and modify it. Upon use, Generator will walk the template looking for any instances of `__yourVariableName__` and prompt for a value. For example, a template including this:
 
 ```javascript
@@ -33,7 +41,7 @@ author: Nyan Cat
 email: me@somedomain.com
 ```
 
-Which will then write:
+Which will generate:
 ```javascript
 /**
  * A description of my project
@@ -46,7 +54,7 @@ Which will then write:
 ---
 
 ### Default Templates
-Generator comes with a number of templates to get you started (additional "starter" templates are welcomed). While they are usable as-is, the whole point of Generator is make the creation and modification of custom templates easy... so go get your hands dirty and hack your own!
+Generator comes with a number of templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so have fun and hack your own!
 
 - `module` Template for a standard [Node.js](http://nodejs.org/) module
 - `binary` Template for a standard [Node.js](http://nodejs.org/) CLI application
