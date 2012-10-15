@@ -18,7 +18,7 @@ generate --setup
 ### Usage
 In order to bootstrap a project using one of the default templates you simply run `generate` and specifiy a template and project name. For example, let's create a new Node.js `module` called `myAwesomeProject`:
 ```bash
-generate --type module --name myAwesomeProject
+generate --template module --name myAwesomeProject
 ```
 
 ---
