@@ -1,4 +1,4 @@
-#!/usr/argv/env node
+#!/usr/bin/env node
 
 /**
  * Command line interface for generator.
