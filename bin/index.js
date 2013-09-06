@@ -56,7 +56,6 @@ if (argv.setup) {
 
         // Walk and gather variables
         walk(path, argv.name, function (err, result) {
-            console.dir(err);
             if (err) return stderr(err);
 
             // Render the results of the walk
