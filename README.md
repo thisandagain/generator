@@ -1,30 +1,32 @@
 ## Generator
-#### Good coders code. Great reuse.
-Generator is a CLI utility that is designed to make bootstrapping and templating projects simple. Generator is platform agnostic: Like Node.js? Saucy. Ruby? Sounds good. Objective-C? Go for it. Go? Yup. Fortran? Why not.
+#### Language agnostic project bootstrapping with an emphasis on simplicity.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 
+Generator is a CLI utility that is designed to make scaffolding new projects and the creation of new templates incredibly simple.
+
+![Screenshot](https://raw.github.com/thisandagain/generator/master/interface.png)
+
 ### Installation
-Generator can be installed using [NPM](https://npmjs.org/):
 ```bash
 [sudo] npm install -g generator
 ```
 
 Once installed, you should load the default templates:
 ```bash
-generator --setup
+generate --setup
 ```
 
 ### Usage
-In order to bootstrap a project using one of the default templates you simply run `generator` and specifiy a template and project name. For example, let's create a new Node.js module called `myAwesomeProject`:
+In order to bootstrap a project using one of the default templates you simply run `generate` and specifiy a template and project name. For example, let's create a new Node.js module called `kittycannon`:
 ```bash
-generator --template npm --name myAwesomeProject
+generate --template npm --name kittycannon
 ```
 
 ---
 
 ### Default Templates
-Generator comes with a few templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so hack your own!
+Generator comes with a few templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates as simple as possible.
 
 - `npm` [NPM](https://npmjs.org/) module template
 - `arduino` [Arduino](http://www.arduino.cc/) project template
