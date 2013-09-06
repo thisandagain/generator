@@ -19,6 +19,7 @@
   "preferGlobal": true,
   "main": "./lib/index.js",
   "bin": {
+    "generator": "./bin/index.js",
     "generate": "./bin/index.js"
   },
   "scripts": {

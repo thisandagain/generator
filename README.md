@@ -12,13 +12,13 @@ Generator can be installed using [NPM](https://npmjs.org/):
 
 Once installed, you should load the default templates:
 ```bash
-generate --setup
+generator --setup
 ```
 
 ### Usage
-In order to bootstrap a project using one of the default templates you simply run `generate` and specifiy a template and project name. For example, let's create a new Node.js module called `myAwesomeProject`:
+In order to bootstrap a project using one of the default templates you simply run `generator` and specifiy a template and project name. For example, let's create a new Node.js module called `myAwesomeProject`:
 ```bash
-generate --template module --name myAwesomeProject
+generator --template npm --name myAwesomeProject
 ```
 
 ---
@@ -26,10 +26,7 @@ generate --template module --name myAwesomeProject
 ### Default Templates
 Generator comes with a few templates to get you started. While they are usable as-is, the whole point of Generator is make the creation of custom templates easy... so hack your own!
 
-- `npm` NPM module template
-- `jquery` jQuery plug-in template
-- `html5` HTML5 boilerplate template
-- `objc` [Objective-C]() library template
+- `npm` [NPM](https://npmjs.org/) module template
 - `arduino` [Arduino](http://www.arduino.cc/) project template
 
 ### How Templates Work
