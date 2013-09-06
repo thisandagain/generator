@@ -23,6 +23,7 @@ var colors      = require('colors'),
 
 var argv        = optimist.argv,
     copy        = require('../lib/copy'),
+    make        = require('../lib/make'),
     render      = require('../lib/render'),
     setup       = require('../lib/setup'),
     walk        = require('../lib/walk');
@@ -63,7 +64,10 @@ if (argv.setup) {
                 if (err) return stderr(err);
                 
                 // Post-processing (make)
-                console.log('Done.'.green);
+                make(path, function (err) {
+                    if (err) return stderr(err);
+                    console.log('Done.'.green);
+                });
             });
         });
     });
