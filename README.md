@@ -1,10 +1,9 @@
 ## Generator
 #### Language agnostic project bootstrapping with an emphasis on simplicity.
 
-[![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
-
 Generator is a CLI utility that is designed to make scaffolding new projects and the creation of new templates incredibly simple.
 
+[![Build Status](https://secure.travis-ci.org/thisandagain/generator.png)](http://travis-ci.org/thisandagain/generator)
 ![Screenshot](https://raw.github.com/thisandagain/generator/master/interface.png)
 
 ### Installation
